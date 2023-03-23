@@ -1,23 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T07:45:29.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="aNVaI6EvJwfQLjTzr8pJ" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T08:16:35.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="V2Y9ZmIeraCwTMO5hFcd" version="21.0.8" type="github">
   <diagram name="第 1 页" id="axa7SnxyUQ3Ipsi_ZxX8">
-    <mxGraphModel dx="683" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="510" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gSLR5tsBvXWB_L40Fj4j-3" value="第二章 面向动态环境的静态地图构建系统设计" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="100" width="338" height="30" as="geometry" />
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0" edge="1" parent="1" source="gSLR5tsBvXWB_L40Fj4j-3" target="gSLR5tsBvXWB_L40Fj4j-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gSLR5tsBvXWB_L40Fj4j-5" value="第三章 面向动态环境的激光惯性SLAM系统设计" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="338" height="30" as="geometry" />
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSLR5tsBvXWB_L40Fj4j-3" target="gSLR5tsBvXWB_L40Fj4j-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gSLR5tsBvXWB_L40Fj4j-6" value="第五章 总结与展望" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="280" width="338" height="30" as="geometry" />
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-3" value="第二章 面向动态环境的静态地图构建系统设计" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="189" y="560" width="338" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gSLR5tsBvXWB_L40Fj4j-7" value="&lt;font&gt;第四章 面向动态环境的多传感器融合建图与定位系统的验证&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="220" width="338" height="30" as="geometry" />
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0" edge="1" parent="1" source="gSLR5tsBvXWB_L40Fj4j-5" target="gSLR5tsBvXWB_L40Fj4j-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gSLR5tsBvXWB_L40Fj4j-8" value="第一章 绪论" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="338" height="30" as="geometry" />
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSLR5tsBvXWB_L40Fj4j-5" target="gSLR5tsBvXWB_L40Fj4j-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-5" value="第三章 面向动态环境的激光惯性SLAM系统设计" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="189" y="620" width="338" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-6" value="第五章 总结与展望" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="189" y="740" width="338" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0" edge="1" parent="1" source="gSLR5tsBvXWB_L40Fj4j-7" target="gSLR5tsBvXWB_L40Fj4j-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gSLR5tsBvXWB_L40Fj4j-7" target="gSLR5tsBvXWB_L40Fj4j-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-7" value="&lt;font&gt;第四章 面向动态环境的多传感器融合建图与定位系统的验证&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="189" y="678" width="338" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=0" edge="1" parent="1" source="gSLR5tsBvXWB_L40Fj4j-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="562" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="552" />
+              <mxPoint x="360" y="552" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-8" value="第一章 绪论" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="189" y="500" width="338" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-23" value="提高了地图精度" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="556" y="560" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-25" value="提高了定位精度" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="556" y="620" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gSLR5tsBvXWB_L40Fj4j-26" value="实验平台及实验验证" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;align=center;fontStyle=0;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="556" y="678" width="125" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
