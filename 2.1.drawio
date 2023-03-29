@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T02:39:37.425Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="odJ2lkXSipTNLIHcyj85" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T03:00:16.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RCKQDeyhaQx9wRxijoWl" version="21.1.0" type="github">
   <diagram name="第 1 页" id="np9ylYSEgCcjItwMwyFh">
-    <mxGraphModel dx="989" dy="549" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,8 +80,8 @@
         <mxCell id="OkzOcSB25WAne4fQIANy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-1" target="OkzOcSB25WAne4fQIANy-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OkzOcSB25WAne4fQIANy-1" value="当前帧预估位姿" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="73" y="606" width="90" height="40" as="geometry" />
+        <mxCell id="OkzOcSB25WAne4fQIANy-1" value="当前帧预估位姿" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="70" y="594" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OkzOcSB25WAne4fQIANy-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-2" target="OkzOcSB25WAne4fQIANy-5">
           <mxGeometry relative="1" as="geometry" />
@@ -92,37 +92,40 @@
         <mxCell id="OkzOcSB25WAne4fQIANy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-3" target="OkzOcSB25WAne4fQIANy-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OkzOcSB25WAne4fQIANy-3" value="子图特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="70" y="699" width="90" height="40" as="geometry" />
+        <mxCell id="OkzOcSB25WAne4fQIANy-3" value="子图特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="70" y="681" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OkzOcSB25WAne4fQIANy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-4" target="5_tiHbaoTRnMNyBQFw8H-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OkzOcSB25WAne4fQIANy-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-4" target="OkzOcSB25WAne4fQIANy-7">
+        <mxCell id="OkzOcSB25WAne4fQIANy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-4" target="OkzOcSB25WAne4fQIANy-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="115" y="499" />
-              <mxPoint x="506" y="499" />
+              <mxPoint x="115" y="502" />
+              <mxPoint x="495" y="502" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OkzOcSB25WAne4fQIANy-4" value="当前帧特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="OkzOcSB25WAne4fQIANy-4" value="当前帧特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
           <mxGeometry x="70" y="507" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-5" target="OkzOcSB25WAne4fQIANy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OkzOcSB25WAne4fQIANy-5" value="描述子比较" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="328" y="603" width="90" height="40" as="geometry" />
+          <mxGeometry x="330" y="594" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OkzOcSB25WAne4fQIANy-6" value="识别动态特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="452" y="777" width="90" height="40" as="geometry" />
+          <mxGeometry x="729" y="418" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OkzOcSB25WAne4fQIANy-7" value="移除动态特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="461" y="606" width="90" height="40" as="geometry" />
+        <mxCell id="OkzOcSB25WAne4fQIANy-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-7" target="OkzOcSB25WAne4fQIANy-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OkzOcSB25WAne4fQIANy-8" value="静态特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="596" y="606" width="90" height="40" as="geometry" />
+        <mxCell id="OkzOcSB25WAne4fQIANy-7" value="移除当前帧动态特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="450" y="594" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OkzOcSB25WAne4fQIANy-9" value="动态区域" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="474" y="383" width="90" height="40" as="geometry" />
+        <mxCell id="OkzOcSB25WAne4fQIANy-8" value="静态特征点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="566" y="594" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OkzOcSB25WAne4fQIANy-10" value="动态区域" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="626" y="368" width="90" height="40" as="geometry" />
@@ -131,7 +134,57 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OkzOcSB25WAne4fQIANy-12" value="子图特征点栅格图" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="205" y="659" width="90" height="40" as="geometry" />
+          <mxGeometry x="205" y="636" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-30" target="OkzOcSB25WAne4fQIANy-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="316" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-30" value="激光里程计" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="271" y="908" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-31" target="OkzOcSB25WAne4fQIANy-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="978" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-31" value="两帧之间的预积分增量" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="908" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-32" target="OkzOcSB25WAne4fQIANy-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-32" target="OkzOcSB25WAne4fQIANy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-32" value="关键帧选取" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="171" y="858" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-33" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="142" y="1347" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-34" target="OkzOcSB25WAne4fQIANy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-34" value="当前帧预估位姿" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="171" y="958" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-35" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="514" y="824" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-36" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="171" y="1021" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OkzOcSB25WAne4fQIANy-37" target="OkzOcSB25WAne4fQIANy-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OkzOcSB25WAne4fQIANy-37" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="171" y="797" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
