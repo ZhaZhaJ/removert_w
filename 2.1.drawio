@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T07:16:20.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nNHb280euU9cQxhp-4qd" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T07:20:35.046Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="65HaxoyGZMDKtFEA2RNd" version="21.1.2" type="github">
   <diagram name="第 1 页" id="np9ylYSEgCcjItwMwyFh">
-    <mxGraphModel dx="681" dy="410" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="856" dy="371" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -808,7 +808,7 @@
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-6" value="Rosbag" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1075" y="2903" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-7" value="特征点提取" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-7" value="动态特征点移除" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1411" y="2758" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-8" value="IMU预积分" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
@@ -835,7 +835,7 @@
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-15" value="点云畸变矫正" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1411" y="2811" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-16" value="栅格图构建" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-16" value="激光雷达点栅格化" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1075" y="2811" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-17" value="区域地平面拟合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
@@ -847,10 +847,10 @@
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-19" value="静态地图" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1075" y="2653" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-20" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="1116.5" y="2873" width="10" height="17.75" as="geometry" />
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-20" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#666666;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="2873" width="10" height="17.75" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-21" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-21" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#666666;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1393" y="2873" width="10" height="17.75" as="geometry" />
         </mxCell>
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-22" value="ROS系统" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
