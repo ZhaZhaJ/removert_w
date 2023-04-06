@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T09:29:10.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zfjXCvrqaqpstC9vVbU9" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T13:21:26.491Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BivDxviy_E1IN5WYLU5X" version="21.1.4" type="github">
   <diagram name="第 1 页" id="np9ylYSEgCcjItwMwyFh">
-    <mxGraphModel dx="1109" dy="550" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="479" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -868,9 +868,6 @@
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-22" value="ROS系统" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1175" y="2933" width="179" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-23" value="静态地图构建系统（离线）" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="981.5" y="2610" width="179" height="36" as="geometry" />
-        </mxCell>
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-24" value="激光惯性SLAM系统（在线）" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1367" y="2608" width="179" height="36" as="geometry" />
         </mxCell>
@@ -928,10 +925,10 @@
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-40" value="实验平台与实验验证" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="2176" y="2661" width="129" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-41" value="提高了定位精度" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-41" value="提升定位精度" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="2176" y="2596" width="129" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-42" value="提高了地图精度" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-42" value="提升地图精度" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
           <mxGeometry x="2176" y="2532" width="129" height="35" as="geometry" />
         </mxCell>
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3lcEkLOY0-2oxwBLf3v-43" target="R3lcEkLOY0-2oxwBLf3v-39" edge="1">
@@ -981,15 +978,15 @@
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3lcEkLOY0-2oxwBLf3v-68" target="R3lcEkLOY0-2oxwBLf3v-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="R3lcEkLOY0-2oxwBLf3v-68" target="R3lcEkLOY0-2oxwBLf3v-74" edge="1">
+        <mxCell id="maIfKcVbXOHOzoDK0Fpd-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="R3lcEkLOY0-2oxwBLf3v-68" target="R3lcEkLOY0-2oxwBLf3v-74">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1971" y="295.94" />
-              <mxPoint x="2176" y="295.94" />
+              <mxPoint x="1976" y="296" />
+              <mxPoint x="2181" y="296" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-68" value="动态区域识别" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-68" value="动态区域识别" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" parent="1" vertex="1">
           <mxGeometry x="1931" y="185.94" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3lcEkLOY0-2oxwBLf3v-70" target="R3lcEkLOY0-2oxwBLf3v-68" edge="1">
@@ -1001,13 +998,13 @@
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3lcEkLOY0-2oxwBLf3v-72" target="R3lcEkLOY0-2oxwBLf3v-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-72" value="栅格图构建" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-72" value="激光雷达点云栅格化" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="1811" y="185.94" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R3lcEkLOY0-2oxwBLf3v-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3lcEkLOY0-2oxwBLf3v-74" target="R3lcEkLOY0-2oxwBLf3v-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R3lcEkLOY0-2oxwBLf3v-74" value="移除动态物体点云" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
+        <mxCell id="R3lcEkLOY0-2oxwBLf3v-74" value="移除动态物体点云" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#6d8764;fontColor=#ffffff;strokeColor=#3A5431;" parent="1" vertex="1">
           <mxGeometry x="2171" y="135.94" width="20" height="140" as="geometry" />
         </mxCell>
         <mxCell id="maIfKcVbXOHOzoDK0Fpd-2" value="基于激光雷达的建图与定位系统" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
@@ -1077,13 +1074,16 @@
           <mxGeometry x="1989" y="3298" width="179" height="36" as="geometry" />
         </mxCell>
         <mxCell id="maIfKcVbXOHOzoDK0Fpd-25" value="静态地图构建系统" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1795.5" y="2975" width="179" height="36" as="geometry" />
+          <mxGeometry x="1775" y="2975" width="179" height="36" as="geometry" />
         </mxCell>
         <mxCell id="maIfKcVbXOHOzoDK0Fpd-26" value="激光惯性SLAM系统" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2181" y="2973" width="179" height="36" as="geometry" />
+          <mxGeometry x="2196" y="2975" width="179" height="36" as="geometry" />
         </mxCell>
         <mxCell id="maIfKcVbXOHOzoDK0Fpd-27" value="静态地图" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1884" y="3018" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="maIfKcVbXOHOzoDK0Fpd-32" value="静态地图构建系统（离线）" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="991.5" y="2620" width="179" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
