@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T05:57:36.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gPulsloIiJlJjQiAVf5P" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-13T06:22:14.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OtlQPYg2fbx_w0wDZ6mp" version="21.2.9" type="github">
   <diagram name="第 1 页" id="np9ylYSEgCcjItwMwyFh">
-    <mxGraphModel dx="978" dy="424" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -973,6 +973,39 @@
         </mxCell>
         <mxCell id="maIfKcVbXOHOzoDK0Fpd-35" value="动态区域地平面拟合" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="2024.5" y="257" width="179" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-3" target="LR-jvoxDKBApgB3tAIVz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-3" value="第五章 实验平台搭建与算法验证" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="957" y="2744" width="323" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-4" value="第六章 总结与展望" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="957" y="2809" width="323" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-7" target="LR-jvoxDKBApgB3tAIVz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-7" value="第四章 面向动态环境的激光惯性SLAM系统设计" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="957" y="2679" width="323" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-10" target="LR-jvoxDKBApgB3tAIVz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-10" value="第三章 面向激光雷达点云地图的动态物体移除算法" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="957" y="2615" width="323" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-12" target="LR-jvoxDKBApgB3tAIVz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-12" value="第二章 多线激光雷达相关理论" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="957" y="2552" width="323" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-17" target="LR-jvoxDKBApgB3tAIVz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-17" value="第一章 绪论" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="957" y="2487" width="323" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
