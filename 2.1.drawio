@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-13T06:22:14.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OtlQPYg2fbx_w0wDZ6mp" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T04:26:08.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kx-ZjlD2AMwZzkEElWQQ" version="21.2.9" type="github">
   <diagram name="第 1 页" id="np9ylYSEgCcjItwMwyFh">
-    <mxGraphModel dx="925" dy="401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1141" dy="495" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -453,15 +453,6 @@
         </mxCell>
         <mxCell id="OkzOcSB25WAne4fQIANy-300" value="激光惯性SLAM系统（在线）" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="76" y="2717" width="179" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="agUnvjAi41C7EGHSvJka-23" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1284.75" y="1992" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="agUnvjAi41C7EGHSvJka-24" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1042" y="2096" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="agUnvjAi41C7EGHSvJka-25" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="845.5" y="2023" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="agUnvjAi41C7EGHSvJka-36" value="当前帧预估位姿" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="617" y="954" width="90" height="40" as="geometry" />
@@ -1006,6 +997,123 @@
         </mxCell>
         <mxCell id="LR-jvoxDKBApgB3tAIVz-17" value="第一章 绪论" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="957" y="2487" width="323" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-19" target="LR-jvoxDKBApgB3tAIVz-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-19" value="栅格中的所有点云" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="1464" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-22" target="LR-jvoxDKBApgB3tAIVz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-22" target="LR-jvoxDKBApgB3tAIVz-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1062" y="1728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-22" value="种子数是否&lt;br&gt;达到阈值" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1002" y="1644.5" width="120" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-24" target="LR-jvoxDKBApgB3tAIVz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-24" value="选取初始种子点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="1534.5" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-26" target="LR-jvoxDKBApgB3tAIVz-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-26" value="随机选取m个点估计地平面模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="1708" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-29" target="LR-jvoxDKBApgB3tAIVz-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-29" target="LR-jvoxDKBApgB3tAIVz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-29" value="种子点向上生长" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="1604.5" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-30" value="地平面模型" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="1901" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-33" target="LR-jvoxDKBApgB3tAIVz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-33" target="LR-jvoxDKBApgB3tAIVz-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1351" y="1728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-33" value="生长次数是否&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;达到阈值" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="1644.5" width="120" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-36" target="LR-jvoxDKBApgB3tAIVz-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="992" y="1854" />
+              <mxPoint x="992" y="1728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-36" target="LR-jvoxDKBApgB3tAIVz-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-36" value="符合模型点云数&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;是否达到阈值" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1001.75" y="1818" width="120.25" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-39" target="LR-jvoxDKBApgB3tAIVz-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-39" target="LR-jvoxDKBApgB3tAIVz-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1422" y="1854" />
+              <mxPoint x="1422" y="1728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-39" value="迭代次数是否&lt;br&gt;达到阈值" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1290.75" y="1818" width="120.25" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-42" target="LR-jvoxDKBApgB3tAIVz-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LR-jvoxDKBApgB3tAIVz-42" target="LR-jvoxDKBApgB3tAIVz-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-42" value="遍历所有种子点" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Tahoma;strokeWidth=2;direction=east;" vertex="1" parent="1">
+          <mxGeometry x="1149" y="1778" width="109" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-43" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="1708" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-44" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1269" y="1659.5" width="27" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-45" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1329" y="1708" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-46" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1113" y="1851" width="26" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-47" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1113" y="1659.5" width="27" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-48" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="984" y="1851" width="27" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-49" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1402" y="1851" width="27" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LR-jvoxDKBApgB3tAIVz-50" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1269" y="1851" width="26" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
